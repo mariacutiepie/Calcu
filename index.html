@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="calculator.png">
+</head>
+<body>
+    <main>
+        
+        
+        <div class="form">
+                <h1>Calculator</h1>
+                <p>Input 2 numbers </p>
+                <div class="form-group">
+                    <label for="">First Number</label>
+                    <input type="number" name="first-number" id="first-number" required>
+                </div>
+                <div class="group">
+            <input type="radio" id="addition" name="operation" value="addition" checked>
+            <label for="addition">Addition</label>
+            <input type="radio" id="subtraction" name="operation" value="subtraction">
+            <label for="subtraction">Subtraction</label>
+            <input type="radio" id="multiplication" name="operation" value="multiplication">
+            <label for="multiplication">Multiplication</label>
+            <input type="radio" id="division" name="operation" value="division">
+            <label for="division">Division</label>
+        </div>
+                <div class="form-group">
+                    <label for="second-number">Second Number</label>
+                    <input type="number" name="second-number" id="second-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="total">Total</label>
+                    <input type="number" name="total" id="total" disabled>
+                </div>
+                <div class="form-group">
+                    <button id="calculate"><span>Calculate</span></button>
+            </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

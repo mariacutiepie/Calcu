@@ -1,0 +1,75 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+main{
+    margin-top: 130px;
+    margin-left: 160px;
+    
+}
+
+.form{
+    width: 500px;
+    padding: 40px;
+    box-shadow: 5px 5px 1px 1px rgb(0, 0 , 0, 0.5);
+    border: 1px solid black;
+    
+    
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+div.form-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-group input{
+    margin: 8px 0;
+    padding: 6px;
+}
+#calculate{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 47, 53);
+    cursor: pointer;
+    
+}
+
+#calculate span{
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+.back{
+    margin: 3%;
+}
+body{
+    background-image: url(final.png ); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+   
+    }
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 5;
+}
